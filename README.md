@@ -7,6 +7,22 @@ This project is about bringing ideas for our project which is the online travel 
 
 ### **Project Sitemap**
 ### **Group Contributions**
+1. Muhammad Harith Danial bin Harun
+(1913029)
+-Pages: Home page, Payment, and Contact
+-Web elements: Navigation bar, Contact and Payment Form, and Icons
+-Compile and link all of the pages.
+-JQuery in the payment page as the data mask for input in the payment form.
+
 ### **Use of third party resources**
+|      Web Eelement    |     Name     |               Use of third party resources and modifications (if any)            |            Modifications (if any)             |
+| ---------------------|--------------|----------------------------------------------------------------------------------|---------------------------------------------- |
+|Icons for Payment page|Harith 1913029 | All icons for Payment from fontawesome.com, a website that include all icons for a better website|Modify the styling for icons to put it into the input box.|         
+|Graphics for Homepage and Contact|Harith 1913029|All graphics for the Homepage and Contacts from pexels.com, a website for high quality stock photos.|All graphics are resized in styling background as cover.|
+|Graphics for package page|Tasya 1914606 |Some graphic in package page use pexels.com and pinterest.com|All graphics are resized in to fit in the box|
+|Graphics for Destination page and categories page|Khalisha 1918214|Some graphics in the Destination page and Categories page use pexels.com, pinterest.com and google image.|Image resized to fit in the box such as polaroid and gallery.Video autoplay.Graphics auto resized depend on size of windows.|
+|Graphics for About Us page and the image in the footer|Ehsanul 1912685|icons from fontawesome.com and pictures from google and shutterstock.com |Image resized and also the graphics are resized|
+
+
 
 
