@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+ font-family: serif;
+ margin: 0;
+ background-color: lavender;
+}
+
+.header1 {
+  font-size: 30px;
+  padding: 60px;
+  text-align: center;
+  background-image: url("cd.jpg");
+  background-position: center;
+  background-size: 500px 350px;
+  color: white;
+
+}
+
+.navbar {
+  display: flex;
+  background-color: lightblue;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: none;
+  color: lightgreen;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.note {
+  text-align: center;
+  font-family: serif;
+
+}
+
+.nature {
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 150px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  background-image: url("n1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+
+.island {
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 150px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  background-image: url("island.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+
+.city {
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 150px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  background-image: url("c1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+
+.culture {
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 150px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  background-image: url("culture.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+
+.pol {
+  width: 24.99999%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-top: 25px;
+
+}
+
+div.contain {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.footer {
+  margin-top: 10px;
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  text-decoration: none;
+}

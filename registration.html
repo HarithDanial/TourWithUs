@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TourWithUs-Registration</title>
+
+    <link rel="stylesheet" href="package.css">
+    <link rel="stylesheet" href="validate.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="jquery.validate.min.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div id="sec-one">
+
+    <nav>
+      <div class="navbar">
+        <div class="max-width">
+          <div class="logo"><a href="Homepage.html">TourWith<span>Us.</span></a></div>
+            <ul class="menu">
+              <li><a href="Homepage.html">Home</a> </li>
+              <li><a href="About.html">About</a> </li>
+              <li><a href="ex.html">Destinations</a> </li>
+              <li><a id="active" href="packagehome.html">Packages</a> </li>
+              <li><a href="Contact.html">Contact</a> </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+          <br><br>
+
+          <br><br><br><br>
+          <div class="box1">
+            <div class="registration">
+              <h2 id="titlep">Registration Form</h2>
+            </div>
+
+            <br>
+                <div class="Name">
+                  <form class="validateForm" method="post" id="myForm" name="myForm">
+                    <label id="fname">First Name</label>
+                    <label id="lname">Last Name</label>
+
+                    <br>
+                      <input type="text" name="firstname" id="firstname" class= "firstname">
+
+                      <input type="text" name="lastname" id="lastname" class="lastname">
+
+                      <br><br><br><br>
+                      <label for="birthday" class="dob">Birthday</label>
+                        <label for="" id="gender">Gender</label>
+                        <br><br>
+
+                        <input type="date" id="birthday" name="birthday" class="calendar">
+
+
+
+                      <div class="gender">
+                        <input type="radio" name="gender" id="male"> Male
+                        <input type="radio" name="gender" id="male"> Female
+                      </div>
+
+                       <br><br>
+                       <label for="" id="email">Email</label>
+                       <label for="" id="phone">Phone</label>
+                       <br><br>
+
+                        <input type="text" name="email" class="email" >
+
+                        <input type="text" name="phone" class ="Phone">
+
+                    <br><br>
+                        <label for="" id="id">ID / Pasport Number</label>
+                        <label for="" id="person">Number of person</label>
+                    <br><br>
+
+                      <input type="text" class="id" name="id" id="id">
+
+                      <input type="text" class="person" name="numPerson" id="numPerson">
+
+                      <br><br><br><br>
+                       <button type="submit" name="submit" class="submit" onclick="validated()" formaction="Payment.html">Submit</button>
+            </form>
+        </div>
+          </div>
+        </div>
+          </div>
+
+
+                <br><br>
+                <footer>
+                  <div class="directoryf">
+                    <ul id="directoryl">
+                        <li id="listf"><a class="active" href="#homepage">Homepage</a></li>
+                        <li id="listf"><a href="#aboutus">About Us</a></li>
+                        <li id="listf"><a href="#destination">Destinations</a></li>
+                        <li id="listf"><a href="#packages">Packages</a></li>
+                        <li id="listf"><a href="#contact">Contact</a></li>
+                    </ul>
+                  </div>
+                  <p id ="tour">TourWithUs</p>
+                </footer>
+
+
+          <script>
+         $(function validated() {
+           $("form[name='myForm']").validate({
+             errorClass: "my-error-class",
+             validClass: "my-valid-class",
+             rules:{
+               firstname: "required",
+               lastname: "required",
+               email: {
+                 required:true,
+                 email: true
+               },
+               gender: "required",
+               phone: {
+                 required: true,
+                 number: true
+               },
+               id: "required",
+               numPerson: {
+                 required: true,
+                 number: true
+               },
+             },
+
+             messages:{
+               firstname: "Please enter your name",
+               lastname: "Please enter your name",
+               email: {
+                 required: "Please enter your email",
+                 email: "Your email is invalid"
+               },
+               phone: {
+                 required: "Please enter your phone number",
+                 number: "Your number is invalid"
+               },
+               id: "Please enter your valid ID/Passport number",
+               numPerson: {
+                 required: "Please enter the number of person",
+                 number: "The number is invalid",
+               },
+             },
+
+
+             submitHandler:function(myForm) {
+               alert("Thank you for filling up the form!");
+               form.submit();
+             }
+           });
+         });
+
+    </script>
+
+
+
+  </body>
+</html>

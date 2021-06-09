@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="Payment.css">
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/5ed5af5e73.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <nav>
+      <div class="navbar">
+        <div class="max-width">
+          <div class="logo"><a href="Homepage.html">TourWith<span>Us.</span></a></div>
+            <ul class="menu">
+              <li><a href="Homepage.html">Home</a> </li>
+              <li><a href="About.html">About</a> </li>
+              <li><a href="ex.html">Destinations</a> </li>
+              <li><a id="active" href="packagehome.html">Packages</a> </li>
+              <li><a href="Contact.html">Contact</a> </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class="wrapper">
+      <div class="payment">
+        <div class="payment-logo">
+          <p>P</p>
+        </div>
+
+        <h2>Payment Gateway</h2>
+
+        <div class="form">
+          <form action="Success.html" method="post">
+          <div class="card space icon-relative">
+
+
+              <label for="" class="label">Card Holder:</label>
+              <input type="text" name="" class="input" name="card" placeholder="Name" required>
+              <i class="fas fa-user"></i>
+          </div>
+          <div class="card space icon-relative">
+              <label for="" class="label">Card Number:</label>
+              <input type="text" name="" class="input" name="cardNUm" placeholder="Card Number" data-mask="0000 0000 0000 0000" required>
+              <i class="fas fa-credit-card"></i>
+          </div>
+          <div class="cardgrp space ">
+            <div class="card-item icon-relative">
+                <label for="" class="label">Expiry Date:</label>
+                <input type="text" name="" class="input" name="expiryDate" placeholder="00 / 00" data-mask="00 / 00" required>
+                <i class="far fa-calendar-alt"></i>
+            </div>
+            <div class="card-item icon-relative">
+                <label for="" class="label">CVC:</label>
+                <input type="text" name="" class="input" name="cvc" placeholder="000" data-mask="000" required>
+                <i class="fas fa-lock"></i>
+            </div>
+          </div>
+
+
+  <button type="submit" class="btn"name="button">Pay</button>
+</form>
+        </div>
+      </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  padding: 15px 0;
+  background: #659dbd;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar .max-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo a{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.navbar .menu li{
+  list-style: none;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.navbar .menu li a{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+
+}
+
+#active, .navbar .menu li a:hover{
+  color: #DAAD86;
+  transition: color 0.3s ease;
+}
+
+
+/*section 1 style*/
+.home{
+  display: flex;
+  background: url("Section1.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 500px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+.home2{
+  display: flex;
+  background: url("Section2.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 500px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.home3{
+  display: flex;
+  background: url("Section3.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 500px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.home .max-width{
+  margin-right: auto;
+
+}
+
+.home-content .text-1{
+  font-size: 27px;
+}
+
+.home-content .text-2{
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+
+.home-content .text-3{
+  font-size: 40px;
+}
+
+.home2 .max-width{
+  margin: 200px 100px auto auto;
+  color: rgba(255, 255, 255, 0.8) ;
+}
+
+.home3 .max-width{
+  margin: 200px 40px auto 0;
+}
+
+.home2 .home-content a, .home3 .home-content a{
+  display: inline-block;
+  background-color: #bc986a;
+  color: white;
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid #bc986a;
+  transition: 0.3s ease;
+}
+
+.home-content a:hover{
+  color: #bc986a;
+  background: none;
+
+}
