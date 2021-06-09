@@ -6,7 +6,7 @@ This project is about bringing ideas for our project which is the online travel 
 	In conclusion, our main goal is to build a website for tourism which is simple and user-friendly yet attractive to the user. Secondly, people can get some knowledge about any destinations that we provide on our website so they can choose wisely for their next vacation. Lastly, we want to facilitate people to have an online booking for their vacation instead of dealing with any travel agency physically face to face. 
 
 ### **Project Sitemap**
-![Sitemap tourism](https://user-images.githubusercontent.com/85621559/121365699-749c0e00-c96b-11eb-97d8-5689ca87b4fc.jpeg)
+![Tourism Sitemap (1)](https://user-images.githubusercontent.com/85621559/121377297-cd23d900-c974-11eb-9e5f-6726fd065820.jpg)
 ### **Group Contributions**
 1. Muhammad Harith Danial bin Harun
 (1913029)
