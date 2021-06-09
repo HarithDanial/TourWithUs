@@ -6,13 +6,36 @@ This project is about bringing ideas for our project which is the online travel 
 	In conclusion, our main goal is to build a website for tourism which is simple and user-friendly yet attractive to the user. Secondly, people can get some knowledge about any destinations that we provide on our website so they can choose wisely for their next vacation. Lastly, we want to facilitate people to have an online booking for their vacation instead of dealing with any travel agency physically face to face. 
 
 ### **Project Sitemap**
+![Sitemap tourism](https://user-images.githubusercontent.com/85621559/121365699-749c0e00-c96b-11eb-97d8-5689ca87b4fc.jpeg)
 ### **Group Contributions**
 1. Muhammad Harith Danial bin Harun
 (1913029)
--Pages: Home page, Payment, and Contact
--Web elements: Navigation bar, Contact and Payment Form, and Icons
--Compile and link all of the pages.
--JQuery in the payment page as the data mask for input in the payment form.
+- Pages: Home page, Payment, and Contact
+- Web elements: Navigation bar, Contact and Payment Form, and Icons
+- Compile and link all of the pages.
+- jQuery in the payment page as the data mask for input in the payment form.
+2. Md Ehsanul Haque (1912685)
+- Pages: About Us with Destination details
+- Web elements: Navigation Buttons, pictures, texts etc.
+- CSS page for styling and also bootstrap 
+- Added 3 of the main destinations with details
+- JavaScript Google API  used for location.
+3. Harris Salabila Tasya (1914606)
+- Pages: Package, registration page
+- Web elements: navigation button
+- Added 8 packages in package page with appropriate styling 
+- JavaScript events in package page for link it to registration page
+- Edit all pages to be more synchronize
+- Css styling
+4. Nur Khalisha Binti Sazari
+(1918214)
+- Pages: Destination homepage, Categories page
+- Web elements: Navigation bar, buttons, graphic
+- Added 4 destination categories in categories page with appropriate styling. 
+- CSS page for styling.
+- Web media: text, image and video.
+
+
 
 ### **Use of third party resources**
 |      Web Eelement    |     Name     |               Use of third party resources and modifications (if any)            |            Modifications (if any)             |
